@@ -1,0 +1,127 @@
+react-cars-app
+localhost:3000
+
+Create Project
+npx create-react-app react-cars-app --template redux-typescript
+
+------------
+start
+yarn start
+
+------------
+Tailwindcss
+yarn add -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+yarn add @craco/craco
+npx tailwindcss-cli@latest init
+
+------------
+Styled Components
+yarn add styled-components twin.macro react-responsive
+yarn add --dev @types/styled-components 
+
+------------
+Burger Menu
+yarn add react-burger-menu
+
+------------
+Responsive
+yarn add @types/react-responsive
+
+------------
+Font Awesome
+yarn add @fortawesome/fontawesome-svg-core
+yarn add @fortawesome/free-solid-svg-icons
+yarn add @fortawesome/react-fontawesome
+
+yarn add  @fortawesome/free-brands-svg-icons
+yarn add  @fortawesome/free-regular-svg-icons
+
+------------
+yarn add react-calendar
+yarn add @types/react-calendar
+
+------------
+Carousel
+yarn add @brainhubeu/react-carousel
+
+------------
+Apollo
+yarn add @apollo/client graphql
+
+------------
+schema
+yarn schema:download
+yarn schema:generate-watch
+
+------------
+redux-logger
+yarn add redux-logger
+yarn add -D @types/redux-logger
+
+------------
+reselect
+yarn add reselect
+
+------------
+react-spinners
+yarn add react-spinners
+
+------------
+express
+yarn add express
+
+
+
+-------------------------------------------------
+nestjs-react-car-app
+http://localhost:9000/graphql
+
+Nest JS
+npm install -g @nestjs/cli
+nest new nestjs-cars-app
+------------
+start
+yarn start:dev
+
+------------
+TypeORM
+yarn add typeorm mysql
+yarn add typeorm
+
+------------
+
+yarn add @nestjs/config
+yarn add @nestjs/common
+yarn add @nestjs/core
+
+-----------
+yarn add @nestjs/typeorm
+
+-----------
+Mysql
+mysql -u root -p
+CREATE DATABASE yourcar;
+
+-----------
+Apollo
+yarn add @nestjs/graphql graphql@^15 apollo-server-express
+
+-----------
+class-validator
+yarn add class-validator
+
+-----------
+class-transformer
+yarn add class-transformer
+
+-----------
+cross-env
+yarn add cross-env
+
+-----------
+migration:create
+yarn typeorm migration:create -n CreateDatabase -d src/migrations
+
+-----------
+migration:generate
+yarn typeorm migration:generate -n CreateCarsTable

@@ -1,0 +1,67 @@
+mutation {
+  addNewCar(newCarData: {
+    name: "Audi S3 Car",
+    monthlyPrice: 1600,
+    dailyPrice: 70,
+    gearType: "Auto",
+    gas: "Petrol",
+    mileage: "20K",
+    thumbnailUrl: "https://cdn.jdpower.com/Models/640x480/2017-Audi-S3-PremiumPlus.jpg"
+  }){
+    id
+    name
+    thumbnailUrl
+    mileage
+  }
+}
+
+mutation {
+  addNewCar(newCarData: {
+    name: "Honda City 5 Seater Car",
+    monthlyPrice: 1500,
+    dailyPrice: 50,
+    gearType: "Auto",
+    gas: "Petrol",
+    mileage: "20K",
+    thumbnailUrl: "https://shinewiki.com/wp-content/uploads/2019/11/honda-city.jpg"
+  }){
+    id
+    name
+    thumbnailUrl
+    mileage
+  }
+}
+
+mutation {
+  addNewCar(newCarData: {
+    name: "Audi S3 Car",
+    monthlyPrice: 1700,
+    dailyPrice: 90,
+    gearType: "Auto",
+    gas: "Petrol",
+    mileage: "10K",
+    thumbnailUrl: "https://cdn.jdpower.com/Models/640x480/2017-Audi-S3-PremiumPlus.jpg"
+  }){
+    id
+    name
+    thumbnailUrl
+    mileage
+  }
+}
+
+mutation {
+  addNewCar(newCarData: {
+    name: "Honda City 6 Seater Car",
+    monthlyPrice: 1900,
+    dailyPrice: 70,
+    gearType: "Auto",
+    gas: "Petrol",
+    mileage: "12K",
+    thumbnailUrl: "https://shinewiki.com/wp-content/uploads/2019/11/honda-city.jpg"
+  }){
+    id
+    name
+    thumbnailUrl
+    mileage
+  }
+}
